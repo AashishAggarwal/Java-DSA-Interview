@@ -27,7 +27,7 @@ class MergeIntervals{
     for(int i = 1 ; i < v.size(); i++) {
       int x1 = v.get(i).first;
       int y1 = v.get(i).second;
-      int x2 = result.get(result.size() - 1).first;
+      // int x2 = result.get(result.size() - 1).first;
       int y2 = result.get(result.size() - 1).second;
 
       if(y2 >= x1) {

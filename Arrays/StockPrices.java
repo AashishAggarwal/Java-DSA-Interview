@@ -1,7 +1,7 @@
 package Arrays;
 
 // Find the best buy and sell price to maximize proft/minimize loss
-class Tuple<X, Y> {             
+class Tuple <X, Y> {             
     public X x; 
     public Y y; 
   
